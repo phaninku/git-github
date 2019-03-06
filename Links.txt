@@ -1,0 +1,119 @@
+----IKANO
+https://docops.ca.com/devtest-solutions/9-0/en/getting-started/ca-service-virtualization-tutorial]
+http://www.itko.com/solutions/functional.jsp
+
+SSL Certificates:---
+1).self signed
+2).Global 
+https://www.globalsign.com/en-in/ssl-information-center/what-is-an-ssl-certificate/
+https://community.sophos.com/kb/en-us/132438
+https://www.sslsupportdesk.com/export-ssl-certificate-private-key-pfx-using-mmc-windows/
+
+
+DevOps Fundamentals :---
+https://capgemini.sumtotal.host/core/pillarRedirect?relyingParty=LM&url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D655564%26UserMode%3D0
+
+How to Build Jekins:
+https://www.tutorialspoint.com/jenkins/jenkins_setup_build_jobs.htm
+
+How To Export an SSL Certificate With Private Key (pfx) Using MMC On Windows:--
+https://www.sslsupportdesk.com/export-ssl-certificate-private-key-pfx-using-mmc-windows/
+
+how the jira will works:---
+https://www.guru99.com/jira-tutorial-a-complete-guide-for-beginners.html
+
+What is svn tag:----
+https://www.tutorialspoint.com/svn/svn_tags.htm
+
+Raise ti incident:--
+https://ikanobank.service-now.com/nav_to.do
+
+DevOps:--
+https://www.guru99.com/devops-tutorial.html
+
+10:47
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+https://github.com/SaintSkeeta/Sample-Default-Sitecore-MVC
+
+http://sitecorepratice/Home
+
+Shared, Versioned, and Un-versioned Fields
+Layouts
+Renderings(controller renderings,View renderings)
+Page templates
+Standard values,Tokens 
+Dependency Injection, Repository Pattern
+Sitecore Project Setup with MVC
+Creating a Site Definition + Basic Templates
+Working with Glass Mapper
+
+Helix---
+
+Architecture,Conventions
+Working with items
+Helix Templates
+Creating Event presentation layer
+DevOps and Helix
+
+
+------- R, Srinidhi:  
+\\LIN80016727\Shared
+\\10.51.22.23\Shared 
+ 
+https://dev.sitecore.net/ 
+MongoDB community versio
+
+https://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+https://gopigujjula.com/2018/02/Sitecore9-Local-Installation-Prerequisites/ 
+
+Helix----------------
+
+https://github.com/Sitecore/Habitat 
+https://github.com/Sitecore/Habitat/tree/master/docs 
+https://helix.sitecore.net/ 
+
+Login Application using Sessions in ASP.NET MVC------
+
+https://www.c-sharpcorner.com/article/simple-login-application-using-Asp-Net-mvc/
+
+Galss Mapper Training-----
+
+http://glass.lu/Training
+Thanks for enrolling in this course!
+
+Your order ID: 24897125
+
+You will shortly receive an email confirmation at phanindra.kumar@capgemini.com.
+
+Capgemini designation hierarchy:--
+A3 - Associate
+A4- Analyst
+A5- Senior Analyst
+B1- Associate Consultant
+B2- Consultant
+C1- Senior Consultant
+C2- Manager
+D1 - Senior Manager
+D2- Program Manager
+E1- Director
+E2- Senior Director 
+A3 - Associate
+A4- Analyst
+A5- Senior Analyst
+B1- Associate Consultant
+B2- Consultant
+C1- Senior Consultant
+C2- Manager
+D1 - Senior Manager
+D2- Program Manager
+E1- Director
+E2- Senior Director
+
+
+
+
+
+
