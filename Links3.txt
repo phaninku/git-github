@@ -1,0 +1,12 @@
+Capgemini designation hierarchy:--
+A3 - Associate
+A4- Analyst
+A5- Senior Analyst
+B1- Associate Consultant
+B2- Consultant
+C1- Senior Consultant
+C2- Manager
+D1 - Senior Manager
+D2- Program Manager
+E1- Director
+E2- Senior Director 
