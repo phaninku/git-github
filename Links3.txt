@@ -1,5 +1,4 @@
-Capgemini designation hierarchy:--
-A3 - Associate
+1.Capgemini designation hierarchy:--A3 - Associate
 A4- Analyst
 A5- Senior Analyst
 B1- Associate Consultant
