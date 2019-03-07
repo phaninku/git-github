@@ -1,0 +1,293 @@
+phaninku@DIN80016058 MINGW64 ~
+$ cd C:\GitSampleProjectTwo
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo
+$ git clone "https://github.com/phaninku/git-github.git"
+Cloning into 'git-github'...
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 12 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (12/12), done.
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo
+$ git add Links.txt
+fatal: not a git repository (or any of the parent directories): .git
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo
+$ git init
+Initialized empty Git repository in C:/GitSampleProjectTwo/.git/
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Links.txt
+        git-github/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (master)
+$ git add Links.txt
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   Links.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        git-github/
+
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (master)
+$ git commit -m"Adding first commit to local repo"
+[master (root-commit) 003c692] Adding first commit to local repo
+ Committer: Bavisetti <phanindra.kumar@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 119 insertions(+)
+ create mode 100644 Links.txt
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (master)
+$
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Links1.txt
+        Links2.txt
+        git-github/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Links.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Links1.txt
+        Links2.txt
+        git-github/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (master)
+$ git add -A
+warning: adding embedded git repository: git-github
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> git-github
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached git-github
+hint:
+hint: See "git help submodule" for more information.
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   Links.txt
+        new file:   Links1.txt
+        new file:   Links2.txt
+        new file:   git-github
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    git-github
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        README.md
+
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (master)
+$ git add -A
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   Links.txt
+        new file:   Links1.txt
+        new file:   Links2.txt
+        new file:   README.md
+
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (master)
+$ git commit -a -m"adding three files"
+[master b8255df] adding three files
+ Committer: Bavisetti <phanindra.kumar@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 95 insertions(+), 1 deletion(-)
+ create mode 100644 Links1.txt
+ create mode 100644 Links2.txt
+ create mode 100644 README.md
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (master)
+$ git log
+commit b8255df766009be021756716ba99920c2b88182c (HEAD -> master)
+Author: Bavisetti <phanindra.kumar@capgemini.com>
+Date:   Wed Mar 6 18:20:47 2019 +0530
+
+    adding three files
+
+commit 003c692697fce60be34d5b7fd4d2dc0fdd96d1bf
+Author: Bavisetti <phanindra.kumar@capgemini.com>
+Date:   Wed Mar 6 18:10:01 2019 +0530
+
+    Adding first commit to local repo
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (master)
+$ git branch firstbranch
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (master)
+$ git checkout firstbranch
+Switched to branch 'firstbranch'
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (firstbranch)
+$  git add Links3.txt
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (firstbranch)
+$ git commit -m"Adding new file to fristbranch"
+[firstbranch 2edad31] Adding new file to fristbranch
+ Committer: Bavisetti <phanindra.kumar@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 12 insertions(+)
+ create mode 100644 Links3.txt
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (firstbranch)
+$ ls
+Links.txt  Links1.txt  Links2.txt  Links3.txt  README.md
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (firstbranch)
+$ git checkout master
+Switched to branch 'master'
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (master)
+$ ls
+Links.txt  Links1.txt  Links2.txt  README.md
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (master)
+$
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (master)
+$  git merge firstbranch
+Updating b8255df..2edad31
+Fast-forward
+ Links3.txt | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+ create mode 100644 Links3.txt
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (master)
+$ ls
+'Git commands.txt'   Links1.txt   Links3.txt
+ Links.txt           Links2.txt   README.md
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (master)
+$ git checkout firstbranch
+Switched to branch 'firstbranch'
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (firstbranch)
+$ git commit -a -m"Update link3 in firstbranch"
+[firstbranch 4e987b8] Update link3 in firstbranch
+ Committer: Bavisetti <phanindra.kumar@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (firstbranch)
+$ cat links3.txt
+1.Capgemini designation hierarchy:--A3 - Associate
+A4- Analyst
+A5- Senior Analyst
+B1- Associate Consultant
+B2- Consultant
+C1- Senior Consultant
+C2- Manager
+D1 - Senior Manager
+D2- Program Manager
+E1- Director
+E2- Senior Director
+phaninku@DIN80016058 MINGW64 /c/GitSampleProjectTwo (firstbranch)
+$
